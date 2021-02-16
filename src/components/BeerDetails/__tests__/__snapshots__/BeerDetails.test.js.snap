@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BeerDetails should render 1`] = `
+<body>
+  <div>
+    <div
+      class="details"
+    >
+      <h2>
+        Foo
+      </h2>
+      <img
+        alt="Foo"
+        src="https://brewerydb-images.s3.amazonaws.com/beer/UJGpVS/upload_K4w7gB-medium.png"
+      />
+      <p>
+        Bar
+      </p>
+    </div>
+  </div>
+</body>
+`;

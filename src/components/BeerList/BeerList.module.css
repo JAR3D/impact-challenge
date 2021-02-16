@@ -1,0 +1,19 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 50%;
+}
+
+li {
+  background-color: #eee;
+  border: 1px solid #333;
+}
+
+li:hover {
+  background-color: #ddd;
+}
+
+li:active {
+  font-weight: bold;
+}

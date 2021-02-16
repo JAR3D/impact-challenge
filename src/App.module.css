@@ -1,0 +1,9 @@
+.wrapper {
+  text-align: center;
+  padding: 15px;
+}
+
+.none-selected {
+  text-align: center;
+  width: 50%;
+}

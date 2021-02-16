@@ -1,23 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+
+import { fetchBeers } from "./api";
+
+import BeerList from "./components/BeerList/BeerList";
+import BeerDetails from "./components/BeerDetails/BeerDetails";
+import AddBeerForm from "./components/AddBeerForm/AddBeerForm";
+
+import classes from "./App.module.css";
 
 function App() {
+  const [beerList, setBeerList] = useState([]);
+  const [selected, setSelected] = useState(null);
+
+  const getBeers = async () => {
+    const { data } = await fetchBeers();
+    setBeerList(data);
+  };
+
+  const addBeer = (beer) => {
+    setBeerList([...beerList, beer]);
+  };
+
+  useEffect(() => {
+    getBeers();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.wrapper}>
+      <h1>My Beer Cellar</h1>
+      <AddBeerForm addBeer={addBeer} />
+      <div style={{ display: "flex" }}>
+        <BeerList list={beerList} onClick={setSelected} />
+        {selected !== null ? (
+          <BeerDetails
+            name={beerList[selected].name}
+            description={beerList[selected].description}
+            labels={beerList[selected].labels}
+          />
+        ) : (
+          <p className={classes["none-selected"]}>Please select a beer</p>
+        )}
+      </div>
     </div>
   );
 }

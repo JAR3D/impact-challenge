@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BeerDetails should render 1`] = `
+<body>
+  <div>
+    <ul>
+      <li>
+        'Murican Pilsner
+      </li>
+      <li>
+        11.5° PLATO
+      </li>
+      <li>
+        12th Of Never
+      </li>
+      <li>
+        15th Anniversary Ale
+      </li>
+      <li>
+        16 So Fine Red Wheat Wine
+      </li>
+      <li>
+        1794 The Fergal Project
+      </li>
+      <li>
+        17th Saison
+      </li>
+      <li>
+        18th Anniversary Belgian Tripel
+      </li>
+      <li>
+        19 - Golden Belgian Style Ale
+      </li>
+      <li>
+        1904 American Red Lager
+      </li>
+      <li>
+        2 x 4
+      </li>
+      <li>
+        200th Anniversary Export Stout
+      </li>
+      <li>
+        2017 Beer Camp (2017)
+      </li>
+      <li>
+        20th Anniversary Imperial Hash IPA on Brett
+      </li>
+      <li>
+        20th Street Ale Citra
+      </li>
+      <li>
+        20th Street Ale Crystal
+      </li>
+      <li>
+        20th Street Ale Magnum
+      </li>
+      <li>
+        21st Anniversary
+      </li>
+      <li>
+        25th Anniversary
+      </li>
+      <li>
+        3 Weight
+      </li>
+      <li>
+        30th Anniversary - Charlie, Fred & Ken's Bock
+      </li>
+      <li>
+        30th Anniversary - Fritz and Ken's Ale
+      </li>
+      <li>
+        30th Anniversary - Grand Cru
+      </li>
+      <li>
+        30th Anniversary - Jack & Ken's Ale
+      </li>
+      <li>
+        35th Anniversary  - Brewer's Reserve
+      </li>
+      <li>
+        420 Extra Pale Ale
+      </li>
+      <li>
+        420 Fest
+      </li>
+      <li>
+        420 Strain G13 IPA
+      </li>
+      <li>
+        471 Double IPA - Hull Melon
+      </li>
+      <li>
+        471 ESB - Extra Special Bitter
+      </li>
+      <li>
+        471 IPA Barrel Series: Citra
+      </li>
+      <li>
+        471 IPA Barrel Series: Eureka!
+      </li>
+      <li>
+        471 IPA. Aggressive Hoppiness
+      </li>
+      <li>
+        471 Pilsner
+      </li>
+      <li>
+        471 Small Batch IPA
+      </li>
+      <li>
+        5 C's IPA
+      </li>
+      <li>
+        7 Birds
+      </li>
+      <li>
+        7 Cities Pilsner
+      </li>
+      <li>
+        72 Imperial
+      </li>
+      <li>
+        A Beer Named Sue
+      </li>
+      <li>
+        A Little Sumpin' Extra
+      </li>
+      <li>
+        A Little Sumpin' Sumpin'
+      </li>
+      <li>
+        ABLE Best Britter
+      </li>
+      <li>
+        Afternooner
+      </li>
+      <li>
+        Agave Wheat
+      </li>
+      <li>
+        Ale 20
+      </li>
+      <li>
+        Ale Communication
+      </li>
+      <li>
+        All Colorado Apricot Wheat
+      </li>
+      <li>
+        All Colorado Wet Hop Pale Ale
+      </li>
+      <li>
+        Alpha Dog Imperial IPA
+      </li>
+    </ul>
+  </div>
+</body>
+`;
