@@ -29,7 +29,8 @@ function App() {
     <div className={classes.wrapper}>
       <h1>My Beer Cellar</h1>
       <AddBeerForm addBeer={addBeer} />
-      <div style={{ display: "flex" }}>
+      <hr />
+      <div className={classes.action}>
         <BeerList list={beerList} onClick={setSelected} />
         {selected !== null ? (
           <BeerDetails

@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import classes from "./AddBeerForm.module.css";
+
 const AddBeerForm = ({ addBeer }) => {
   const [formData, setFormData] = useState({});
 
@@ -20,33 +22,37 @@ const AddBeerForm = ({ addBeer }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="name">Name:</label>
-      <input
-        type="text"
-        name="name"
-        id="name"
-        value={formData.name}
-        onChange={onChange}
-      />
-
-      <label htmlFor="description">Description:</label>
-      <input
-        type="text"
-        name="description"
-        id="description"
-        value={formData.description}
-        onChange={onChange}
-      />
-
-      <label htmlFor="label-url">Label url:</label>
-      <input
-        type="text"
-        name="label-url"
-        id="label-url"
-        value={formData["label-url"]}
-        onChange={onChange}
-      />
+    <form onSubmit={handleSubmit} className={classes.form}>
+      <div>
+        <label htmlFor="name">Name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          value={formData.name}
+          onChange={onChange}
+        />
+      </div>
+      <div>
+        <label htmlFor="description">Description:</label>
+        <input
+          type="text"
+          name="description"
+          id="description"
+          value={formData.description}
+          onChange={onChange}
+        />
+      </div>
+      <div>
+        <label htmlFor="label-url">Label url:</label>
+        <input
+          type="text"
+          name="label-url"
+          id="label-url"
+          value={formData["label-url"]}
+          onChange={onChange}
+        />
+      </div>
 
       <button type="submit">Add Beer</button>
     </form>

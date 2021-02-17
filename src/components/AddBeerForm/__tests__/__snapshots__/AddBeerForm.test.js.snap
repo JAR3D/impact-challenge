@@ -3,40 +3,48 @@
 exports[`AddBeerForm should render 1`] = `
 <body>
   <div>
-    <form>
-      <label
-        for="name"
-      >
-        Name:
-      </label>
-      <input
-        id="name"
-        name="name"
-        type="text"
-        value=""
-      />
-      <label
-        for="description"
-      >
-        Description:
-      </label>
-      <input
-        id="description"
-        name="description"
-        type="text"
-        value=""
-      />
-      <label
-        for="label-url"
-      >
-        Label url:
-      </label>
-      <input
-        id="label-url"
-        name="label-url"
-        type="text"
-        value=""
-      />
+    <form
+      class="form"
+    >
+      <div>
+        <label
+          for="name"
+        >
+          Name:
+        </label>
+        <input
+          id="name"
+          name="name"
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        <label
+          for="description"
+        >
+          Description:
+        </label>
+        <input
+          id="description"
+          name="description"
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        <label
+          for="label-url"
+        >
+          Label url:
+        </label>
+        <input
+          id="label-url"
+          name="label-url"
+          type="text"
+          value=""
+        />
+      </div>
       <button
         type="submit"
       >

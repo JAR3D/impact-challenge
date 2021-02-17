@@ -7,3 +7,8 @@
   text-align: center;
   width: 50%;
 }
+
+.action {
+  display: flex;
+  padding-top: 15px;
+}
